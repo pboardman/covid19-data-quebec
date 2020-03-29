@@ -27,7 +27,7 @@ def main():
         total = total,
     )
 
-    with open('../html/all.html', 'w') as f:
+    with open('../data.html', 'w') as f:
         f.write(rendered)
 
 

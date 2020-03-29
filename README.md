@@ -1,6 +1,6 @@
 # Données historiques de la COVID-19 dans la province de Québec / Historical Data about the COVID-19 in the province of Québec
 
-[Lien vers les données en version web (HTML) / Link to datasets in web format (HTML)](https://pboardman.github.io/covid19-data-quebec/html/all.html)
+[Lien vers les données en version web (HTML) / Link to datasets in web format (HTML)](https://pboardman.github.io/covid19-data-quebec/data.html)
 
 [English version](#English)
 
@@ -24,7 +24,7 @@ Les données sont disponibles sont:
 Les deux formats de données disponibles sont JSON et CSV, une version Web basique existe aussi pour consulter les infomrations directement de votre navigateur. Les informations sont toujours les mêmes, seulement le format change.
 
 La version web se trouve ici:
-- [region/total](https://pboardman.github.io/covid19-data-quebec/html/all.html)
+- [region/total](https://pboardman.github.io/covid19-data-quebec/data.html)
 
 Vous pouvez accéder aux API JSON ici:
 - [region](https://pboardman.github.io/covid19-data-quebec/json/region.json)
@@ -59,7 +59,7 @@ The available datasets are:
 The datasets are available as either JSON or CSV format. There is also a web version meant for a quick look at the datasets. they all contains the same information, only the format changes.
 
 The web version can be found here:
-- [region/total](https://pboardman.github.io/covid19-data-quebec/html/all.html)
+- [region/total](https://pboardman.github.io/covid19-data-quebec/data.html)
 
 The JSON APIs are here:
 - [region](https://pboardman.github.io/covid19-data-quebec/json/region.json)
