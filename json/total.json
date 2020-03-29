@@ -1,0 +1,81 @@
+{
+    "2020-03-13": {
+        "total_case": 17,
+        "total_death": 0,
+        "total_recovered": 0
+    },
+    "2020-03-14": {
+        "total_case": 24,
+        "total_death": 0,
+        "total_recovered": 0
+    },
+    "2020-03-15": {
+        "total_case": 39,
+        "total_death": 0,
+        "total_recovered": 0
+    },
+    "2020-03-16": {
+        "total_case": 50,
+        "total_death": 0,
+        "total_recovered": 0
+    },
+    "2020-03-17": {
+        "total_case": 74,
+        "total_death": 0,
+        "total_recovered": 0
+    },
+    "2020-03-18": {
+        "total_case": 94,
+        "total_death": 1,
+        "total_recovered": 1
+    },
+    "2020-03-19": {
+        "total_case": 121,
+        "total_death": 1,
+        "total_recovered": 1
+    },
+    "2020-03-20": {
+        "total_case": 139,
+        "total_death": 1,
+        "total_recovered": 1
+    },
+    "2020-03-21": {
+        "total_case": 181,
+        "total_death": 5,
+        "total_recovered": 1
+    },
+    "2020-03-22": {
+        "total_case": 219,
+        "total_death": 4,
+        "total_recovered": 1
+    },
+    "2020-03-23": {
+        "total_case": 628,
+        "total_death": 4,
+        "total_recovered": 1
+    },
+    "2020-03-24": {
+        "total_case": 1013,
+        "total_death": 4,
+        "total_recovered": 1
+    },
+    "2020-03-25": {
+        "total_case": 1339,
+        "total_death": 6,
+        "total_recovered": 1
+    },
+    "2020-03-26": {
+        "total_case": 1629,
+        "total_death": 8,
+        "total_recovered": 1
+    },
+    "2020-03-27": {
+        "total_case": 2021,
+        "total_death": 18,
+        "total_recovered": 29
+    },
+    "2020-03-28": {
+        "total_case": 2498,
+        "total_death": 22
+    }
+}
