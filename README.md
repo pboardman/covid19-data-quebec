@@ -13,15 +13,15 @@ Si vous avez des informations historiques sur la COVID-19 au Québec que vous vo
 
 Ce projet n'est **pas** affilié avec le gouvernement du Québec ou du Canada.
 
-### Données disponible
+### Données disponibles
 
 Les données sont disponibles sont:
-- `region` Contient le nombre de nouveaux cas et le total des cas par region et par date.
-- `total` Contient le nombre de cas total, mort total et guérison total au Québec par date.
+- `region` Contient le nombre de nouveaux cas et le total des cas par région et par date.
+- `total` Contient le nombre de cas total, mort total et guérison totale au Québec par date.
 
-Les deux formats de données disponible sont JSON et CSV, ils contiennent les memes information, seulement le format change.
+Les deux formats de données disponibles sont JSON et CSV, ils contiennent les mêmes informations, seulement le format change.
 
-Vous pouvez acceder aux API JSON ici:
+Vous pouvez accéder aux API JSON ici:
 - [region](https://pboardman.github.io/covid19-data-quebec/json/region.json)
 - [total](https://pboardman.github.io/covid19-data-quebec/json/total.json)
 
