@@ -1,0 +1,289 @@
+region,date,new_case,total_case
+Bas-Saint-Laurent,2020-03-13,0,0
+Saguenay–Lac-Saint-Jean,2020-03-13,0,0
+Capitale Nationale,2020-03-13,0,0
+Mauricie - Centre du Québec,2020-03-13,0,1
+Estrie,2020-03-13,0,2
+Montréal,2020-03-13,0,7
+Outaouais,2020-03-13,0,0
+Abitibi-Temiscamingue,2020-03-13,0,0
+Côte-Nord,2020-03-13,0,0
+Nord-du-Québec,2020-03-13,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-13,0,0
+Chaudière-Appalaches,2020-03-13,0,1
+Laval,2020-03-13,0,0
+Lanaudière,2020-03-13,0,0
+Laurentides,2020-03-13,0,2
+Montérégie,2020-03-13,0,4
+Nunavik,2020-03-13,0,0
+Terres-Cries-de-la-Baie-James,2020-03-13,0,0
+Bas-Saint-Laurent,2020-03-14,0,0
+Saguenay–Lac-Saint-Jean,2020-03-14,0,0
+Capitale Nationale,2020-03-14,0,0
+Mauricie - Centre du Québec,2020-03-14,0,1
+Estrie,2020-03-14,1,3
+Montréal,2020-03-14,0,8
+Outaouais,2020-03-14,0,0
+Abitibi-Temiscamingue,2020-03-14,0,0
+Côte-Nord,2020-03-14,0,0
+Nord-du-Québec,2020-03-14,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-14,0,0
+Chaudière-Appalaches,2020-03-14,0,1
+Laval,2020-03-14,0,0
+Lanaudière,2020-03-14,0,1
+Laurentides,2020-03-14,0,2
+Montérégie,2020-03-14,1,7
+Nunavik,2020-03-14,0,0
+Terres-Cries-de-la-Baie-James,2020-03-14,0,0
+Bas-Saint-Laurent,2020-03-15,0,0
+Saguenay–Lac-Saint-Jean,2020-03-15,0,0
+Capitale Nationale,2020-03-15,0,2
+Mauricie - Centre du Québec,2020-03-15,0,3
+Estrie,2020-03-15,0,4
+Montréal,2020-03-15,1,10
+Outaouais,2020-03-15,0,0
+Abitibi-Temiscamingue,2020-03-15,0,0
+Côte-Nord,2020-03-15,0,0
+Nord-du-Québec,2020-03-15,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-15,0,0
+Chaudière-Appalaches,2020-03-15,2,3
+Laval,2020-03-15,0,0
+Lanaudière,2020-03-15,1,2
+Laurentides,2020-03-15,0,3
+Montérégie,2020-03-15,0,9
+Nunavik,2020-03-15,0,0
+Terres-Cries-de-la-Baie-James,2020-03-15,0,0
+Bas-Saint-Laurent,2020-03-16,0,0
+Saguenay–Lac-Saint-Jean,2020-03-16,0,0
+Capitale Nationale,2020-03-16,0,2
+Mauricie - Centre du Québec,2020-03-16,0,3
+Estrie,2020-03-16,0,3
+Montréal,2020-03-16,5,18
+Outaouais,2020-03-16,0,0
+Abitibi-Temiscamingue,2020-03-16,0,0
+Côte-Nord,2020-03-16,0,0
+Nord-du-Québec,2020-03-16,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-16,0,0
+Chaudière-Appalaches,2020-03-16,1,4
+Laval,2020-03-16,0,0
+Lanaudière,2020-03-16,1,3
+Laurentides,2020-03-16,0,3
+Montérégie,2020-03-16,1,10
+Nunavik,2020-03-16,0,0
+Terres-Cries-de-la-Baie-James,2020-03-16,0,0
+Bas-Saint-Laurent,2020-03-17,0,0
+Saguenay–Lac-Saint-Jean,2020-03-17,0,0
+Capitale Nationale,2020-03-17,0,3
+Mauricie - Centre du Québec,2020-03-17,0,3
+Estrie,2020-03-17,0,9
+Montréal,2020-03-17,1,22
+Outaouais,2020-03-17,0,0
+Abitibi-Temiscamingue,2020-03-17,0,0
+Côte-Nord,2020-03-17,0,0
+Nord-du-Québec,2020-03-17,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-17,0,0
+Chaudière-Appalaches,2020-03-17,0,4
+Laval,2020-03-17,0,0
+Lanaudière,2020-03-17,3,6
+Laurentides,2020-03-17,2,7
+Montérégie,2020-03-17,2,13
+Nunavik,2020-03-17,0,0
+Terres-Cries-de-la-Baie-James,2020-03-17,0,0
+Bas-Saint-Laurent,2020-03-18,0,0
+Saguenay–Lac-Saint-Jean,2020-03-18,0,0
+Capitale Nationale,2020-03-18,5,8
+Mauricie - Centre du Québec,2020-03-18,0,3
+Estrie,2020-03-18,9,18
+Montréal,2020-03-18,2,24
+Outaouais,2020-03-18,1,1
+Abitibi-Temiscamingue,2020-03-18,0,0
+Côte-Nord,2020-03-18,0,0
+Nord-du-Québec,2020-03-18,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-18,0,0
+Chaudière-Appalaches,2020-03-18,2,6
+Laval,2020-03-18,0,0
+Lanaudière,2020-03-18,0,6
+Laurentides,2020-03-18,1,8
+Montérégie,2020-03-18,0,13
+Nunavik,2020-03-18,0,0
+Terres-Cries-de-la-Baie-James,2020-03-18,0,0
+Bas-Saint-Laurent,2020-03-19,0,1
+Saguenay–Lac-Saint-Jean,2020-03-19,0,0
+Capitale Nationale,2020-03-19,2,10
+Mauricie - Centre du Québec,2020-03-19,0,3
+Estrie,2020-03-19,8,26
+Montréal,2020-03-19,4,28
+Outaouais,2020-03-19,0,1
+Abitibi-Temiscamingue,2020-03-19,0,0
+Côte-Nord,2020-03-19,0,0
+Nord-du-Québec,2020-03-19,0,0
+Gaspésie-Îles-de-la-Madeleine,2020-03-19,0,0
+Chaudière-Appalaches,2020-03-19,0,6
+Laval,2020-03-19,1,1
+Lanaudière,2020-03-19,1,7
+Laurentides,2020-03-19,1,9
+Montérégie,2020-03-19,6,19
+Nunavik,2020-03-19,0,0
+Terres-Cries-de-la-Baie-James,2020-03-19,0,0
+Bas-Saint-Laurent,2020-03-20,0,1
+Saguenay–Lac-Saint-Jean,2020-03-20,0,0
+Capitale Nationale,2020-03-20,0,10
+Mauricie - Centre du Québec,2020-03-20,1,4
+Estrie,2020-03-20,0,26
+Montréal,2020-03-20,3,31
+Outaouais,2020-03-20,0,1
+Abitibi-Temiscamingue,2020-03-20,0,0
+Côte-Nord,2020-03-20,0,0
+Nord-du-Québec,2020-03-20,1,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-20,0,0
+Chaudière-Appalaches,2020-03-20,0,6
+Laval,2020-03-20,0,1
+Lanaudière,2020-03-20,0,7
+Laurentides,2020-03-20,1,10
+Montérégie,2020-03-20,2,21
+Nunavik,2020-03-20,0,0
+Terres-Cries-de-la-Baie-James,2020-03-20,0,0
+Bas-Saint-Laurent,2020-03-21,0,1
+Saguenay–Lac-Saint-Jean,2020-03-21,1,1
+Capitale Nationale,2020-03-21,3,13
+Mauricie - Centre du Québec,2020-03-21,1,5
+Estrie,2020-03-21,1,27
+Montréal,2020-03-21,10,41
+Outaouais,2020-03-21,2,3
+Abitibi-Temiscamingue,2020-03-21,0,0
+Côte-Nord,2020-03-21,0,0
+Nord-du-Québec,2020-03-21,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-21,0,0
+Chaudière-Appalaches,2020-03-21,7,13
+Laval,2020-03-21,2,3
+Lanaudière,2020-03-21,2,9
+Laurentides,2020-03-21,4,14
+Montérégie,2020-03-21,5,26
+Nunavik,2020-03-21,0,0
+Terres-Cries-de-la-Baie-James,2020-03-21,0,0
+Bas-Saint-Laurent,2020-03-22,0,1
+Saguenay–Lac-Saint-Jean,2020-03-22,0,1
+Capitale Nationale,2020-03-22,0,13
+Mauricie - Centre du Québec,2020-03-22,2,7
+Estrie,2020-03-22,3,30
+Montréal,2020-03-22,5,46
+Outaouais,2020-03-22,2,5
+Abitibi-Temiscamingue,2020-03-22,0,0
+Côte-Nord,2020-03-22,0,0
+Nord-du-Québec,2020-03-22,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-22,0,0
+Chaudière-Appalaches,2020-03-22,0,13
+Laval,2020-03-22,1,4
+Lanaudière,2020-03-22,6,15
+Laurentides,2020-03-22,3,17
+Montérégie,2020-03-22,14,40
+Nunavik,2020-03-22,0,0
+Terres-Cries-de-la-Baie-James,2020-03-22,0,0
+Bas-Saint-Laurent,2020-03-23,2,3
+Saguenay–Lac-Saint-Jean,2020-03-23,0,1
+Capitale Nationale,2020-03-23,20,33
+Mauricie - Centre du Québec,2020-03-23,9,16
+Estrie,2020-03-23,18,48
+Montréal,2020-03-23,219,265
+Outaouais,2020-03-23,3,8
+Abitibi-Temiscamingue,2020-03-23,3,3
+Côte-Nord,2020-03-23,0,0
+Nord-du-Québec,2020-03-23,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-23,3,3
+Chaudière-Appalaches,2020-03-23,2,15
+Laval,2020-03-23,17,21
+Lanaudière,2020-03-23,35,50
+Laurentides,2020-03-23,13,30
+Montérégie,2020-03-23,26,66
+Nunavik,2020-03-23,0,0
+Terres-Cries-de-la-Baie-James,2020-03-23,0,0
+Bas-Saint-Laurent,2020-03-24,1,4
+Saguenay–Lac-Saint-Jean,2020-03-24,4,5
+Capitale Nationale,2020-03-24,46,79
+Mauricie - Centre du Québec,2020-03-24,16,32
+Estrie,2020-03-24,82,130
+Montréal,2020-03-24,174,439
+Outaouais,2020-03-24,4,12
+Abitibi-Temiscamingue,2020-03-24,2,5
+Côte-Nord,2020-03-24,0,0
+Nord-du-Québec,2020-03-24,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-24,4,7
+Chaudière-Appalaches,2020-03-24,-1,14
+Laval,2020-03-24,39,60
+Lanaudière,2020-03-24,5,55
+Laurentides,2020-03-24,14,44
+Montérégie,2020-03-24,59,125
+Nunavik,2020-03-24,0,0
+Terres-Cries-de-la-Baie-James,2020-03-24,0,0
+Bas-Saint-Laurent,2020-03-25,2,6
+Saguenay–Lac-Saint-Jean,2020-03-25,3,8
+Capitale Nationale,2020-03-25,16,95
+Mauricie - Centre du Québec,2020-03-25,3,35
+Estrie,2020-03-25,39,169
+Montréal,2020-03-25,164,603
+Outaouais,2020-03-25,1,13
+Abitibi-Temiscamingue,2020-03-25,0,5
+Côte-Nord,2020-03-25,2,2
+Nord-du-Québec,2020-03-25,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-25,0,7
+Chaudière-Appalaches,2020-03-25,32,46
+Laval,2020-03-25,23,83
+Lanaudière,2020-03-25,13,68
+Laurentides,2020-03-25,6,50
+Montérégie,2020-03-25,23,148
+Nunavik,2020-03-25,0,0
+Terres-Cries-de-la-Baie-James,2020-03-25,0,0
+Bas-Saint-Laurent,2020-03-26,0,6
+Saguenay–Lac-Saint-Jean,2020-03-26,3,11
+Capitale Nationale,2020-03-26,8,103
+Mauricie - Centre du Québec,2020-03-26,14,49
+Estrie,2020-03-26,18,187
+Montréal,2020-03-26,179,782
+Outaouais,2020-03-26,3,16
+Abitibi-Temiscamingue,2020-03-26,6,11
+Côte-Nord,2020-03-26,1,3
+Nord-du-Québec,2020-03-26,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-26,0,7
+Chaudière-Appalaches,2020-03-26,12,58
+Laval,2020-03-26,12,95
+Lanaudière,2020-03-26,4,72
+Laurentides,2020-03-26,11,61
+Montérégie,2020-03-26,19,167
+Nunavik,2020-03-26,0,0
+Terres-Cries-de-la-Baie-James,2020-03-26,0,0
+Bas-Saint-Laurent,2020-03-27,1,7
+Saguenay–Lac-Saint-Jean,2020-03-27,5,16
+Capitale Nationale,2020-03-27,3,106
+Mauricie - Centre du Québec,2020-03-27,20,69
+Estrie,2020-03-27,40,227
+Montréal,2020-03-27,189,971
+Outaouais,2020-03-27,2,18
+Abitibi-Temiscamingue,2020-03-27,7,18
+Côte-Nord,2020-03-27,3,6
+Nord-du-Québec,2020-03-27,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-27,0,7
+Chaudière-Appalaches,2020-03-27,15,73
+Laval,2020-03-27,35,130
+Lanaudière,2020-03-27,25,97
+Laurentides,2020-03-27,20,81
+Montérégie,2020-03-27,26,193
+Nunavik,2020-03-27,0,0
+Terres-Cries-de-la-Baie-James,2020-03-27,0,0
+Bas-Saint-Laurent,2020-03-28,1,8
+Saguenay–Lac-Saint-Jean,2020-03-28,2,18
+Capitale Nationale,2020-03-28,42,148
+Mauricie - Centre du Québec,2020-03-28,16,85
+Estrie,2020-03-28,26,253
+Montréal,2020-03-28,248,1219
+Outaouais,2020-03-28,8,26
+Abitibi-Temiscamingue,2020-03-28,6,24
+Côte-Nord,2020-03-28,7,13
+Nord-du-Québec,2020-03-28,0,1
+Gaspésie-Îles-de-la-Madeleine,2020-03-28,2,9
+Chaudière-Appalaches,2020-03-28,7,80
+Laval,2020-03-28,30,160
+Lanaudière,2020-03-28,31,126
+Laurentides,2020-03-28,27,108
+Montérégie,2020-03-28,26,219
+Nunavik,2020-03-28,0,0
+Terres-Cries-de-la-Baie-James,2020-03-28,1,1
