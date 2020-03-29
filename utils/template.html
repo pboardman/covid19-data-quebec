@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150447750-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150447750-2');
+    </script>
+
+    <meta charset="utf-8" />
+    <title >covid19-data-quebec</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Main navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" style="color: #ffffff;">covid19-data-quebec</a>
+  </nav>
+
+  <!-- Used to show notifications -->
+  <div style="margin: 5px;" id="alert"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
+    <a class="navbar-brand mx-auto" style="color: #ffffff;">Total cases by date</a>
+  </nav>
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Total case</th>
+        <th scope="col">Total deaths</th>
+        <th scope="col">Total recoveries</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for line in total %}
+      <tr>
+        <td>{{ line[0] }}</td>
+        <td>{{ line[1] }}</td>
+        <td>{{ line[2] }}</td>
+        <td>{{ line[3] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
+    <a class="navbar-brand mx-auto" style="color: #ffffff;">Cases by region and by date</a>
+  </nav>
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Region</th>
+        <th scope="col">New cases</th>
+        <th scope="col">Total cases</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for line in regions %}
+      <tr>
+        <td>{{ line[1] }}</td>
+        <td>{{ line[0] }}</td>
+        <td>{{ line[2] }}</td>
+        <td>{{ line[3] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+</body>
+</html>

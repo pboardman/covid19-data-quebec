@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-from pprint import pprint
 
 """
 Take the data from the csv files in ../csv and turn them into json
