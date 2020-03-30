@@ -82,5 +82,9 @@
         "total_case": 2840,
         "total_death": 22,
         "total_recovered": 84
+    },
+    "2020-03-30": {
+        "total_case": 3430,
+        "total_death": 25
     }
 }
