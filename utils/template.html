@@ -96,10 +96,11 @@
     datasets: [
 
       {% for region in datasets["regions"] %}
+        {% set rgb = datasets["regions"][region]["color"].split(',') %}
       {
         label: "{{ datasets["regions"][region]["label"] }}",
-        backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-        borderColor: window.chartColors.red,
+        backgroundColor: color("rgb({{ rgb[0] }},{{ rgb[1] }},{{ rgb[2] }})").alpha(0.5).rgbString(),
+        borderColor: "rgb({{ rgb[0] }},{{ rgb[1] }},{{ rgb[2] }})",
         fill: false,
         data: {{ datasets["regions"][region]["data"]|safe }}
       },
