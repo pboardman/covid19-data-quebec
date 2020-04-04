@@ -105,5 +105,9 @@
     "2020-04-03": {
         "total_case": 6101,
         "total_death": 61
+    },
+    "2020-04-04": {
+        "total_case": 6997,
+        "total_death": 75
     }
 }
