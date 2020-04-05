@@ -41,7 +41,7 @@ def update_total_csv(soup):
 
     print(f'Updating total csv with: {date},{total},{deaths},?')
     with open(csv_total, 'a') as f:
-        f.write(f'{date},{total},{deaths},?\n')
+        f.write(f'{date},{total},{deaths},?,?,?\n')
 
 
 def get_total_case(region, date):

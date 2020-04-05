@@ -2,116 +2,162 @@
     "2020-03-13": {
         "total_case": 17,
         "total_death": 0,
-        "total_recovered": 0
+        "total_recovered": 0,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-14": {
         "total_case": 24,
         "total_death": 0,
-        "total_recovered": 0
+        "total_recovered": 0,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-15": {
         "total_case": 39,
         "total_death": 0,
-        "total_recovered": 0
+        "total_recovered": 0,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-16": {
         "total_case": 50,
         "total_death": 0,
-        "total_recovered": 0
+        "total_recovered": 0,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-17": {
         "total_case": 74,
         "total_death": 0,
-        "total_recovered": 0
+        "total_recovered": 0,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-18": {
         "total_case": 94,
         "total_death": 1,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 0,
+        "intensive_care": 0
     },
     "2020-03-19": {
         "total_case": 121,
         "total_death": 1,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 7,
+        "intensive_care": 0
     },
     "2020-03-20": {
         "total_case": 139,
         "total_death": 1,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 10,
+        "intensive_care": 6
     },
     "2020-03-21": {
         "total_case": 181,
         "total_death": 5,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 20,
+        "intensive_care": 10
     },
     "2020-03-22": {
         "total_case": 219,
         "total_death": 4,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 24,
+        "intensive_care": 13
     },
     "2020-03-23": {
         "total_case": 628,
         "total_death": 4,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 45,
+        "intensive_care": 20
     },
     "2020-03-24": {
         "total_case": 1013,
         "total_death": 4,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 67,
+        "intensive_care": 31
     },
     "2020-03-25": {
         "total_case": 1339,
         "total_death": 6,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 78,
+        "intensive_care": 35
     },
     "2020-03-26": {
         "total_case": 1629,
         "total_death": 8,
-        "total_recovered": 1
+        "total_recovered": 1,
+        "hospitalisations": 106,
+        "intensive_care": 43
     },
     "2020-03-27": {
         "total_case": 2021,
         "total_death": 18,
-        "total_recovered": 29
+        "total_recovered": 29,
+        "hospitalisations": 141,
+        "intensive_care": 50
     },
     "2020-03-28": {
         "total_case": 2498,
-        "total_death": 22
+        "total_death": 22,
+        "hospitalisations": 164,
+        "intensive_care": 57
     },
     "2020-03-29": {
         "total_case": 2840,
         "total_death": 22,
-        "total_recovered": 84
+        "total_recovered": 84,
+        "hospitalisations": 192,
+        "intensive_care": 72
     },
     "2020-03-30": {
         "total_case": 3430,
         "total_death": 25,
-        "total_recovered": 155
+        "total_recovered": 155,
+        "hospitalisations": 235,
+        "intensive_care": 78
     },
     "2020-03-31": {
         "total_case": 4162,
         "total_death": 31,
-        "total_recovered": 231
+        "total_recovered": 231,
+        "hospitalisations": 286,
+        "intensive_care": 82
     },
     "2020-04-01": {
         "total_case": 4611,
         "total_death": 33,
-        "total_recovered": 224
+        "total_recovered": 224,
+        "hospitalisations": 307,
+        "intensive_care": 82
     },
     "2020-04-02": {
         "total_case": 5518,
         "total_death": 36,
-        "total_recovered": 306
+        "total_recovered": 306,
+        "hospitalisations": 365,
+        "intensive_care": 96
     },
     "2020-04-03": {
         "total_case": 6101,
         "total_death": 61,
-        "total_recovered": 437
+        "total_recovered": 437,
+        "hospitalisations": 441,
+        "intensive_care": 107
     },
     "2020-04-04": {
         "total_case": 6997,
         "total_death": 75,
-        "total_recovered": 464
+        "total_recovered": 464,
+        "hospitalisations": 525,
+        "intensive_care": 154
     },
     "2020-04-05": {
         "total_case": 7944,

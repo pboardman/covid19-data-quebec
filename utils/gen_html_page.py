@@ -52,17 +52,25 @@ def chart_data_total(total):
     Generate info to be used in the HTML page chart
     """
 
-    chart_data = {'dates': [], 'deaths': [], 'recoveries': [], 'total_cases': []}
-    for date, total_cases, deaths, recoveries in total:
+    chart_data = {'dates': [], 'deaths': [], 'recoveries': [], 'total_cases': [], 'hospitalisations': [], 'icu': []}
+    for date, total_cases, deaths, recoveries, hosp, icu in total:
 
         # Use last day recoveries number if we don't have data for today
         if recoveries == '?':
             recoveries = chart_data['recoveries'][-1]
 
+        if hosp == '?':
+            hosp = chart_data['hospitalisations'][-1]
+
+        if icu == '?':
+            icu = chart_data['icu'][-1]
+
         chart_data['dates'].append(date)
         chart_data['total_cases'].append(total_cases)
         chart_data['deaths'].append(deaths)
         chart_data['recoveries'].append(recoveries)
+        chart_data['hospitalisations'].append(hosp)
+        chart_data['icu'].append(icu)
 
     return chart_data
 

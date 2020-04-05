@@ -46,7 +46,7 @@ def generate_total_json():
     total_csv.pop(0)
 
     for line in total_csv:
-        date,total_case,total_death,total_recovered = line.strip().split(',')
+        date,total_case,total_death,total_recovered, hosp, icu = line.strip().split(',')
 
         # Insert data for date
         total_json[date] = {}
@@ -56,6 +56,10 @@ def generate_total_json():
             total_json[date]['total_death'] = int(total_death)
         if total_recovered != '?':
             total_json[date]['total_recovered'] = int(total_recovered)
+        if hosp != '?':
+            total_json[date]['hospitalisations'] = int(hosp)
+        if icu != '?':
+            total_json[date]['intensive_care'] = int(icu)
 
 
     with open('../json/total.json', 'w') as f:

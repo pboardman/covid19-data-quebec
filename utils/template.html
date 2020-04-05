@@ -20,7 +20,7 @@
     <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
 </head>
 
-<body>
+<body style="background-color: #eeeeee">
   <!-- Main navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" style="color: #ffffff;">covid19-data-quebec</a>
@@ -35,6 +35,13 @@
       <canvas id="canvasTotal"></canvas>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-6">
+      <canvas id="canvasHosp"></canvas>
+    </div>
+  </div>
+
 
 
   <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
@@ -137,7 +144,29 @@
         borderColor: window.chartColors.green,
         fill: false,
         data: {{ datasets_total["recoveries"]|safe }}
-      }
+      },
+    ]
+
+  };
+
+  var barChartDataHosp = {
+    labels: {{ datasets_total["dates"]|safe }},
+    datasets: [
+      {
+        label: "Hospitalisations",
+        backgroundColor: color(window.chartColors.yellow).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.yellow,
+        fill: false,
+        data: {{ datasets_total["hospitalisations"]|safe }}
+      },
+
+      {
+        label: "Intensive Care",
+        backgroundColor: color(window.chartColors.orange).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.orange,
+        fill: false,
+        data: {{ datasets_total["icu"]|safe }}
+      },
     ]
 
   };
@@ -186,7 +215,31 @@
         },
         title: {
           display: true,
-          text: 'Total confirmed Cases, Deaths and Recoveries in the province of Québec'
+          text: 'Total Confirmed Cases, Deaths and Recoveries in the province of Québec'
+        }
+      }
+    });
+
+    // Hosp graph
+    var ctx = document.getElementById('canvasHosp').getContext('2d');
+    window.myBar = new Chart(ctx, {
+      type: 'line',
+      data: barChartDataHosp,
+      options: {
+        scales: {
+          yAxes: [{
+              ticks: {
+                  beginAtZero: true
+              }
+          }]
+        },
+        responsive: true,
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Hospitalisations and patients in Intensive Care in the province of Québec'
         }
       }
     });

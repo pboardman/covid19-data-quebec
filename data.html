@@ -20,7 +20,7 @@
     <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
 </head>
 
-<body>
+<body style="background-color: #eeeeee">
   <!-- Main navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" style="color: #ffffff;">covid19-data-quebec</a>
@@ -35,6 +35,13 @@
       <canvas id="canvasTotal"></canvas>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-6">
+      <canvas id="canvasHosp"></canvas>
+    </div>
+  </div>
+
 
 
   <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
@@ -3485,7 +3492,29 @@
         borderColor: window.chartColors.green,
         fill: false,
         data: ['0', '0', '0', '0', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '29', '29', '84', '155', '231', '224', '306', '437', '464', '464']
-      }
+      },
+    ]
+
+  };
+
+  var barChartDataHosp = {
+    labels: ['2020-03-13', '2020-03-14', '2020-03-15', '2020-03-16', '2020-03-17', '2020-03-18', '2020-03-19', '2020-03-20', '2020-03-21', '2020-03-22', '2020-03-23', '2020-03-24', '2020-03-25', '2020-03-26', '2020-03-27', '2020-03-28', '2020-03-29', '2020-03-30', '2020-03-31', '2020-04-01', '2020-04-02', '2020-04-03', '2020-04-04', '2020-04-05'],
+    datasets: [
+      {
+        label: "Hospitalisations",
+        backgroundColor: color(window.chartColors.yellow).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.yellow,
+        fill: false,
+        data: ['0', '0', '0', '0', '0', '0', '7', '10', '20', '24', '45', '67', '78', '106', '141', '164', '192', '235', '286', '307', '365', '441', '525', '525']
+      },
+
+      {
+        label: "Intensive Care",
+        backgroundColor: color(window.chartColors.orange).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.orange,
+        fill: false,
+        data: ['0', '0', '0', '0', '0', '0', '0', '6', '10', '13', '20', '31', '35', '43', '50', '57', '72', '78', '82', '82', '96', '107', '154', '154']
+      },
     ]
 
   };
@@ -3534,7 +3563,31 @@
         },
         title: {
           display: true,
-          text: 'Total confirmed Cases, Deaths and Recoveries in the province of Québec'
+          text: 'Total Confirmed Cases, Deaths and Recoveries in the province of Québec'
+        }
+      }
+    });
+
+    // Hosp graph
+    var ctx = document.getElementById('canvasHosp').getContext('2d');
+    window.myBar = new Chart(ctx, {
+      type: 'line',
+      data: barChartDataHosp,
+      options: {
+        scales: {
+          yAxes: [{
+              ticks: {
+                  beginAtZero: true
+              }
+          }]
+        },
+        responsive: true,
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Hospitalisations and patients in Intensive Care in the province of Québec'
         }
       }
     });
