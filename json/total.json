@@ -104,7 +104,8 @@
     },
     "2020-04-03": {
         "total_case": 6101,
-        "total_death": 61
+        "total_death": 61,
+        "total_recovered": 437
     },
     "2020-04-04": {
         "total_case": 6997,

@@ -24,21 +24,20 @@
   <!-- Main navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" style="color: #ffffff;">covid19-data-quebec</a>
-
       <a class="nav-link" href="https://pboardman.github.io/covid19-data-quebec/">Project info / API</a>
   </nav>
 
-  <!-- Used to show notifications -->
-  <div style="margin: 5px;" id="alert"></div>
+  <div class="row">
+    <div class="col-6">
+      <canvas id="canvasRegion"></canvas>
+    </div>
+    <div class="col-6">
+      <canvas id="canvasTotal"></canvas>
+    </div>
+  </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
-    <a class="navbar-brand mx-auto" style="color: #ffffff;">Total cases per day by region</a>
-  </nav>
 
-  <!-- Graph -->
-  <canvas id="canvas"></canvas>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
     <a class="navbar-brand mx-auto" style="color: #ffffff;">Total cases by date</a>
   </nav>
 
@@ -204,7 +203,7 @@
         <td>2020-04-03</td>
         <td>6101</td>
         <td>61</td>
-        <td>?</td>
+        <td>437</td>
       </tr>
       
       <tr>
@@ -3131,14 +3130,14 @@
       </tr>
       
     </tbody>
-  </table>
+  </table> -->
 
 
 </body>
 
 <script>
   var color = Chart.helpers.color;
-  var barChartData = {
+  var barChartDataRegion = {
     labels: ['2020-03-13', '2020-03-14', '2020-03-15', '2020-03-16', '2020-03-17', '2020-03-18', '2020-03-19', '2020-03-20', '2020-03-21', '2020-03-22', '2020-03-23', '2020-03-24', '2020-03-25', '2020-03-26', '2020-03-27', '2020-03-28', '2020-03-29', '2020-03-30', '2020-03-31', '2020-04-01', '2020-04-02', '2020-04-03', '2020-04-04'],
     datasets: [
 
@@ -3327,11 +3326,43 @@
 
   };
 
+
+  var barChartDataTotal = {
+    labels: ['2020-03-13', '2020-03-14', '2020-03-15', '2020-03-16', '2020-03-17', '2020-03-18', '2020-03-19', '2020-03-20', '2020-03-21', '2020-03-22', '2020-03-23', '2020-03-24', '2020-03-25', '2020-03-26', '2020-03-27', '2020-03-28', '2020-03-29', '2020-03-30', '2020-03-31', '2020-04-01', '2020-04-02', '2020-04-03', '2020-04-04'],
+    datasets: [
+      {
+        label: "Total Cases",
+        backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.blue,
+        fill: false,
+        data: ['17', '24', '39', '50', '74', '94', '121', '139', '181', '219', '628', '1013', '1339', '1629', '2021', '2498', '2840', '3430', '4162', '4611', '5518', '6101', '6997']
+      },
+
+      {
+        label: "Total Deaths",
+        backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.red,
+        fill: false,
+        data: ['0', '0', '0', '0', '0', '1', '1', '1', '5', '4', '4', '4', '6', '8', '18', '22', '22', '25', '31', '33', '36', '61', '75']
+      },
+
+      {
+        label: "Total Recoveries",
+        backgroundColor: color(window.chartColors.green).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.green,
+        fill: false,
+        data: ['0', '0', '0', '0', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '29', '29', '84', '84', '231', '224', '306', '437', '437']
+      }
+    ]
+
+  };
+
   window.onload = function() {
-    var ctx = document.getElementById('canvas').getContext('2d');
+    // Region Graph
+    var ctx = document.getElementById('canvasRegion').getContext('2d');
     window.myBar = new Chart(ctx, {
       type: 'line',
-      data: barChartData,
+      data: barChartDataRegion,
       options: {
         scales: {
           yAxes: [{
@@ -3345,7 +3376,32 @@
           position: 'top',
         },
         title: {
-          display: false
+          display: true,
+          text: 'Total confirmed cases in Québec by region'
+        }
+      }
+    });
+
+    // Total graph
+    var ctx = document.getElementById('canvasTotal').getContext('2d');
+    window.myBar = new Chart(ctx, {
+      type: 'line',
+      data: barChartDataTotal,
+      options: {
+        scales: {
+          yAxes: [{
+              ticks: {
+                  beginAtZero: true
+              }
+          }]
+        },
+        responsive: true,
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Total confirmed Cases, Deaths and Recoveries in the province of Québec'
         }
       }
     });

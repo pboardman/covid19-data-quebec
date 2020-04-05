@@ -47,6 +47,26 @@ def chart_data_regions(regions):
     return chart_data
 
 
+def chart_data_total(total):
+    """
+    Generate info to be used in the HTML page chart
+    """
+
+    chart_data = {'dates': [], 'deaths': [], 'recoveries': [], 'total_cases': []}
+    for date, total_cases, deaths, recoveries in total:
+
+        # Use last day recoveries number if we don't have data for today
+        if recoveries == '?':
+            recoveries = chart_data['recoveries'][-1]
+
+        chart_data['dates'].append(date)
+        chart_data['total_cases'].append(total_cases)
+        chart_data['deaths'].append(deaths)
+        chart_data['recoveries'].append(recoveries)
+
+    return chart_data
+
+
 def main():
     # Get regions data
     with open('../csv/region.csv') as f:
@@ -65,7 +85,8 @@ def main():
     rendered = html_template.render(
         regions = regions,
         total = total,
-        datasets = chart_data_regions(regions)
+        datasets_region = chart_data_regions(regions),
+        datasets_total = chart_data_total(total)
     )
 
     with open('../data.html', 'w') as f:
