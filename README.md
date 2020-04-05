@@ -40,6 +40,10 @@ Et en format CSV ici:
 - `2020-03-18` Avant le 18 mars les chiffres des nouveaux cas sont les chiffres du gouvernements du Québec, a partir du 18 mars les chiffres sont calculé comme suit parce qu'il n'y a plus d'information officiel: `total des cas aujourd'hui - total des cas hier`
 - `2020-03-23` A partir du 23 mars, les "cas probables" ont été ajouté par le gouvernements du Québec. (auparavant seulement les cas confirmé étaient calculés)
 
+### Sources
+- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)
+- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees)
+
 ## English
 
 The point of this repository is to make easily available the historical data about COVID-19 Cases in Québec by region.
@@ -74,3 +78,8 @@ And the CSV APIs are here:
 
 - `2020-03-18` Before march 18 the data about new cases come from the government of Québec, on march 18 and onward, the number are calculated like this since the information isn't available: `number of case today - number of case yesterday`
 - `2020-03-23` Starting on march 23, the government switched between counting only confirmed case to counting confirmed + probable case
+
+
+### Sources
+- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)
+- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees)
