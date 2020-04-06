@@ -165,5 +165,9 @@
         "total_recovered": 611,
         "hospitalisations": 533,
         "intensive_care": 164
+    },
+    "2020-04-06": {
+        "total_case": 8580,
+        "total_death": 121
     }
 }
