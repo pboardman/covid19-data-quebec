@@ -66,9 +66,37 @@ def generate_total_json():
         f.write(json.dumps(total_json, indent=4, ensure_ascii=False))
 
 
+def generate_montreal_json():
+    montreal_json = {}
+
+    # Open the csv file for all regions
+    with open('../csv/montreal.csv') as f:
+        montreal_csv = f.readlines()
+
+    # Discard header
+    montreal_csv.pop(0)
+
+    for line in montreal_csv:
+        region, date, total_case = line.strip().split(',')
+
+        # Create structure of region if no data in region yet
+        if region not in montreal_json:
+            montreal_json[region] = {}
+            montreal_json[region]['total_case'] = {}
+
+        # Insert data for date
+        if total_case != '?':
+            montreal_json[region]['total_case'][date] = int(total_case)
+
+
+    with open('../json/montreal.json', 'w') as f:
+        f.write(json.dumps(montreal_json, indent=4, ensure_ascii=False))
+
+
 def main():
     generate_region_json()
     generate_total_json()
+    generate_montreal_json()
 
 
 if __name__ == '__main__':

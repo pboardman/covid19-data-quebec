@@ -40,60 +40,10 @@
     <div class="col-6">
       <canvas id="canvasHosp"></canvas>
     </div>
+    <div class="col-6">
+      <canvas id="canvasMontreal"></canvas>
+    </div>
   </div>
-
-
-
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
-    <a class="navbar-brand mx-auto" style="color: #ffffff;">Total cases by date</a>
-  </nav>
-
-  <table class="table">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">Date</th>
-        <th scope="col">Total case</th>
-        <th scope="col">Total deaths</th>
-        <th scope="col">Total recoveries</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for line in total %}
-      <tr>
-        <td>{{ line[0] }}</td>
-        <td>{{ line[1] }}</td>
-        <td>{{ line[2] }}</td>
-        <td>{{ line[3] }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
-    <a class="navbar-brand mx-auto" style="color: #ffffff;">Cases by region and by date</a>
-  </nav>
-
-  <table class="table">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">Date</th>
-        <th scope="col">Region</th>
-        <th scope="col">New cases</th>
-        <th scope="col">Total cases</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for line in regions %}
-      <tr>
-        <td>{{ line[1] }}</td>
-        <td>{{ line[0] }}</td>
-        <td>{{ line[2] }}</td>
-        <td>{{ line[3] }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table> -->
-
 
 </body>
 
@@ -111,6 +61,26 @@
         borderColor: "rgb({{ rgb[0] }},{{ rgb[1] }},{{ rgb[2] }})",
         fill: false,
         data: {{ datasets_region["regions"][region]["data"]|safe }}
+      },
+
+      {% endfor %}
+      ]
+
+  };
+
+
+  var barChartDataMontreal = {
+    labels: {{ datasets_montreal["dates"]|safe }},
+    datasets: [
+
+      {% for borough in datasets_montreal["borough"] %}
+        {% set rgb = datasets_montreal["borough"][borough]["color"].split(',') %}
+      {
+        label: "{{ datasets_montreal["borough"][borough]["label"] }}",
+        backgroundColor: color("rgb({{ rgb[0] }},{{ rgb[1] }},{{ rgb[2] }})").alpha(0.5).rgbString(),
+        borderColor: "rgb({{ rgb[0] }},{{ rgb[1] }},{{ rgb[2] }})",
+        fill: false,
+        data: {{ datasets_montreal["borough"][borough]["data"]|safe }}
       },
 
       {% endfor %}
@@ -240,6 +210,30 @@
         title: {
           display: true,
           text: 'Hospitalisations and patients in Intensive Care in the province of Québec'
+        }
+      }
+    });
+
+    // Montreal graph
+    var ctx = document.getElementById('canvasMontreal').getContext('2d');
+    window.myBar = new Chart(ctx, {
+      type: 'line',
+      data: barChartDataMontreal,
+      options: {
+        scales: {
+          yAxes: [{
+              ticks: {
+                  beginAtZero: true
+              }
+          }]
+        },
+        responsive: true,
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Confirmed cases in the region of Montréal by boroughs'
         }
       }
     });

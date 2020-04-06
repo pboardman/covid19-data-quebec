@@ -20,19 +20,22 @@ Ce projet n'est **pas** affilié avec le gouvernement du Québec ou du Canada.
 Les données sont disponibles sont:
 - `region` Contient le nombre de nouveaux cas et le total des cas par région et par date.
 - `total` Contient le nombre de cas total, mort total et guérison totale au Québec par date.
+- `montreal` Contient le nombre de cas total par arrondissement de Montréal.
 
-Les deux formats de données disponibles sont JSON et CSV, une version Web basique existe aussi pour consulter les infomrations directement de votre navigateur. Les informations sont toujours les mêmes, seulement le format change.
+Les deux formats de données disponibles sont JSON et CSV, une version Web basique existe aussi pour consulter les informations en format graphique. Les informations sont toujours les mêmes, seulement le format change.
 
 La version web se trouve ici:
-- [region/total](https://pboardman.github.io/covid19-data-quebec/data.html)
+- [region/total/montreal](https://pboardman.github.io/covid19-data-quebec/data.html)
 
 Vous pouvez accéder aux API JSON ici:
 - [region](https://pboardman.github.io/covid19-data-quebec/json/region.json)
 - [total](https://pboardman.github.io/covid19-data-quebec/json/total.json)
+- [montreal](https://pboardman.github.io/covid19-data-quebec/json/montreal.json)
 
 Et en format CSV ici:
 - [region](https://pboardman.github.io/covid19-data-quebec/csv/region.csv)
 - [total](https://pboardman.github.io/covid19-data-quebec/csv/total.csv)
+- [montreal](https://pboardman.github.io/covid19-data-quebec/csv/montreal.csv)
 
 
 ### Notes
@@ -41,8 +44,10 @@ Et en format CSV ici:
 - `2020-03-23` A partir du 23 mars, les "cas probables" ont été ajouté par le gouvernements du Québec. (auparavant seulement les cas confirmé étaient calculés)
 
 ### Sources
-- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)
-- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees)
+- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020) (Toutes les données dans les données de `region` + total_case et total_death des données de `total`)
+- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees) (total_recovered, hospitalisations et ICU des données de `total`)
+- [santemontreal](https://santemontreal.qc.ca/population/coronavirus-covid-19/#c36391) (Toutes les données dans les données de `montreal`)
+
 
 ## English
 
@@ -59,6 +64,7 @@ This project is **not** affiliated with the government of Québec or Canada.
 The available datasets are:
 - `region` Contains the number of new case and total case, by region and by date.
 - `total` Contains the number of total case, total death, and total recovery in all of Québec by date.
+- `montreal` Contains the number of total case by boroughs of Montréal.
 
 The datasets are available as either JSON or CSV format. There is also a web version meant for a quick look at the datasets. they all contains the same information, only the format changes.
 
@@ -68,10 +74,12 @@ The web version can be found here:
 The JSON APIs are here:
 - [region](https://pboardman.github.io/covid19-data-quebec/json/region.json)
 - [total](https://pboardman.github.io/covid19-data-quebec/json/total.json)
+- [montreal](https://pboardman.github.io/covid19-data-quebec/json/montreal.json)
 
 And the CSV APIs are here:
 - [region](https://pboardman.github.io/covid19-data-quebec/csv/region.csv)
 - [total](https://pboardman.github.io/covid19-data-quebec/csv/total.csv)
+- [montreal](https://pboardman.github.io/covid19-data-quebec/csv/montreal.csv)
 
 
 ### Notes
@@ -81,5 +89,6 @@ And the CSV APIs are here:
 
 
 ### Sources
-- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020)
-- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees)
+- [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020) (all data in `region` dataset + total_case and total_death of `total` dataset)
+- [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees) (total_recovered, hospitalisations and ICU in `total` dataset)
+- [santemontreal](https://santemontreal.qc.ca/population/coronavirus-covid-19/#c36391) (all data in `montreal` dataset)
