@@ -43,7 +43,8 @@ def chart_data_montreal(montreal):
         '126,81,9',
         '120,66,18',
         '110,44,0',
-        '123,125,125'
+        '123,125,125',
+        '98,101,103'
     ]
 
     chart_data = {'dates': [], 'borough': {}}
