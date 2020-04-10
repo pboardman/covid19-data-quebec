@@ -176,6 +176,7 @@
     "2020-04-07": {
         "total_case": 9340,
         "total_death": 150,
+        "total_recovered": 827,
         "hospitalisations": 902,
         "intensive_care": 286
     },
