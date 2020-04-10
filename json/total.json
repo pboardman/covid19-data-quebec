@@ -175,6 +175,22 @@
     },
     "2020-04-07": {
         "total_case": 9340,
-        "total_death": 150
+        "total_death": 150,
+        "hospitalisations": 902,
+        "intensive_care": 286
+    },
+    "2020-04-08": {
+        "total_case": 10031,
+        "total_death": 175,
+        "total_recovered": 1112,
+        "hospitalisations": 632,
+        "intensive_care": 181
+    },
+    "2020-04-09": {
+        "total_case": 10912,
+        "total_death": 216,
+        "total_recovered": 1341,
+        "hospitalisations": 679,
+        "intensive_care": 196
     }
 }

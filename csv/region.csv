@@ -1,8 +1,8 @@
 region,date,new_case,total_case
 Bas-Saint-Laurent,2020-03-13,0,0
 Saguenay-Lac-Saint-Jean,2020-03-13,0,0
-Capitale Nationale,2020-03-13,0,0
-Mauricie - Centre du Québec,2020-03-13,0,1
+Capitale Nationale,2020-03-13,0,0
+Mauricie - Centre du Québec,2020-03-13,0,1
 Estrie,2020-03-13,0,2
 Montréal,2020-03-13,0,7
 Outaouais,2020-03-13,0,0
@@ -19,8 +19,8 @@ Nunavik,2020-03-13,0,0
 Terres-Cries-de-la-Baie-James,2020-03-13,0,0
 Bas-Saint-Laurent,2020-03-14,0,0
 Saguenay-Lac-Saint-Jean,2020-03-14,0,0
-Capitale Nationale,2020-03-14,0,0
-Mauricie - Centre du Québec,2020-03-14,0,1
+Capitale Nationale,2020-03-14,0,0
+Mauricie - Centre du Québec,2020-03-14,0,1
 Estrie,2020-03-14,1,3
 Montréal,2020-03-14,0,8
 Outaouais,2020-03-14,0,0
@@ -37,8 +37,8 @@ Nunavik,2020-03-14,0,0
 Terres-Cries-de-la-Baie-James,2020-03-14,0,0
 Bas-Saint-Laurent,2020-03-15,0,0
 Saguenay-Lac-Saint-Jean,2020-03-15,0,0
-Capitale Nationale,2020-03-15,0,2
-Mauricie - Centre du Québec,2020-03-15,0,3
+Capitale Nationale,2020-03-15,0,2
+Mauricie - Centre du Québec,2020-03-15,0,3
 Estrie,2020-03-15,0,4
 Montréal,2020-03-15,1,10
 Outaouais,2020-03-15,0,0
@@ -55,8 +55,8 @@ Nunavik,2020-03-15,0,0
 Terres-Cries-de-la-Baie-James,2020-03-15,0,0
 Bas-Saint-Laurent,2020-03-16,0,0
 Saguenay-Lac-Saint-Jean,2020-03-16,0,0
-Capitale Nationale,2020-03-16,0,2
-Mauricie - Centre du Québec,2020-03-16,0,3
+Capitale Nationale,2020-03-16,0,2
+Mauricie - Centre du Québec,2020-03-16,0,3
 Estrie,2020-03-16,0,3
 Montréal,2020-03-16,5,18
 Outaouais,2020-03-16,0,0
@@ -73,8 +73,8 @@ Nunavik,2020-03-16,0,0
 Terres-Cries-de-la-Baie-James,2020-03-16,0,0
 Bas-Saint-Laurent,2020-03-17,0,0
 Saguenay-Lac-Saint-Jean,2020-03-17,0,0
-Capitale Nationale,2020-03-17,0,3
-Mauricie - Centre du Québec,2020-03-17,0,3
+Capitale Nationale,2020-03-17,0,3
+Mauricie - Centre du Québec,2020-03-17,0,3
 Estrie,2020-03-17,0,9
 Montréal,2020-03-17,1,22
 Outaouais,2020-03-17,0,0
@@ -91,8 +91,8 @@ Nunavik,2020-03-17,0,0
 Terres-Cries-de-la-Baie-James,2020-03-17,0,0
 Bas-Saint-Laurent,2020-03-18,0,0
 Saguenay-Lac-Saint-Jean,2020-03-18,0,0
-Capitale Nationale,2020-03-18,5,8
-Mauricie - Centre du Québec,2020-03-18,0,3
+Capitale Nationale,2020-03-18,5,8
+Mauricie - Centre du Québec,2020-03-18,0,3
 Estrie,2020-03-18,9,18
 Montréal,2020-03-18,2,24
 Outaouais,2020-03-18,1,1
@@ -109,8 +109,8 @@ Nunavik,2020-03-18,0,0
 Terres-Cries-de-la-Baie-James,2020-03-18,0,0
 Bas-Saint-Laurent,2020-03-19,0,1
 Saguenay-Lac-Saint-Jean,2020-03-19,0,0
-Capitale Nationale,2020-03-19,2,10
-Mauricie - Centre du Québec,2020-03-19,0,3
+Capitale Nationale,2020-03-19,2,10
+Mauricie - Centre du Québec,2020-03-19,0,3
 Estrie,2020-03-19,8,26
 Montréal,2020-03-19,4,28
 Outaouais,2020-03-19,0,1
@@ -127,8 +127,8 @@ Nunavik,2020-03-19,0,0
 Terres-Cries-de-la-Baie-James,2020-03-19,0,0
 Bas-Saint-Laurent,2020-03-20,0,1
 Saguenay-Lac-Saint-Jean,2020-03-20,0,0
-Capitale Nationale,2020-03-20,0,10
-Mauricie - Centre du Québec,2020-03-20,1,4
+Capitale Nationale,2020-03-20,0,10
+Mauricie - Centre du Québec,2020-03-20,1,4
 Estrie,2020-03-20,0,26
 Montréal,2020-03-20,3,31
 Outaouais,2020-03-20,0,1
@@ -145,8 +145,8 @@ Nunavik,2020-03-20,0,0
 Terres-Cries-de-la-Baie-James,2020-03-20,0,0
 Bas-Saint-Laurent,2020-03-21,0,1
 Saguenay-Lac-Saint-Jean,2020-03-21,1,1
-Capitale Nationale,2020-03-21,3,13
-Mauricie - Centre du Québec,2020-03-21,1,5
+Capitale Nationale,2020-03-21,3,13
+Mauricie - Centre du Québec,2020-03-21,1,5
 Estrie,2020-03-21,1,27
 Montréal,2020-03-21,10,41
 Outaouais,2020-03-21,2,3
@@ -163,8 +163,8 @@ Nunavik,2020-03-21,0,0
 Terres-Cries-de-la-Baie-James,2020-03-21,0,0
 Bas-Saint-Laurent,2020-03-22,0,1
 Saguenay-Lac-Saint-Jean,2020-03-22,0,1
-Capitale Nationale,2020-03-22,0,13
-Mauricie - Centre du Québec,2020-03-22,2,7
+Capitale Nationale,2020-03-22,0,13
+Mauricie - Centre du Québec,2020-03-22,2,7
 Estrie,2020-03-22,3,30
 Montréal,2020-03-22,5,46
 Outaouais,2020-03-22,2,5
@@ -181,8 +181,8 @@ Nunavik,2020-03-22,0,0
 Terres-Cries-de-la-Baie-James,2020-03-22,0,0
 Bas-Saint-Laurent,2020-03-23,2,3
 Saguenay-Lac-Saint-Jean,2020-03-23,0,1
-Capitale Nationale,2020-03-23,20,33
-Mauricie - Centre du Québec,2020-03-23,9,16
+Capitale Nationale,2020-03-23,20,33
+Mauricie - Centre du Québec,2020-03-23,9,16
 Estrie,2020-03-23,18,48
 Montréal,2020-03-23,219,265
 Outaouais,2020-03-23,3,8
@@ -199,8 +199,8 @@ Nunavik,2020-03-23,0,0
 Terres-Cries-de-la-Baie-James,2020-03-23,0,0
 Bas-Saint-Laurent,2020-03-24,1,4
 Saguenay-Lac-Saint-Jean,2020-03-24,4,5
-Capitale Nationale,2020-03-24,46,79
-Mauricie - Centre du Québec,2020-03-24,16,32
+Capitale Nationale,2020-03-24,46,79
+Mauricie - Centre du Québec,2020-03-24,16,32
 Estrie,2020-03-24,82,130
 Montréal,2020-03-24,174,439
 Outaouais,2020-03-24,4,12
@@ -217,8 +217,8 @@ Nunavik,2020-03-24,0,0
 Terres-Cries-de-la-Baie-James,2020-03-24,0,0
 Bas-Saint-Laurent,2020-03-25,2,6
 Saguenay-Lac-Saint-Jean,2020-03-25,3,8
-Capitale Nationale,2020-03-25,16,95
-Mauricie - Centre du Québec,2020-03-25,3,35
+Capitale Nationale,2020-03-25,16,95
+Mauricie - Centre du Québec,2020-03-25,3,35
 Estrie,2020-03-25,39,169
 Montréal,2020-03-25,164,603
 Outaouais,2020-03-25,1,13
@@ -235,8 +235,8 @@ Nunavik,2020-03-25,0,0
 Terres-Cries-de-la-Baie-James,2020-03-25,0,0
 Bas-Saint-Laurent,2020-03-26,0,6
 Saguenay-Lac-Saint-Jean,2020-03-26,3,11
-Capitale Nationale,2020-03-26,8,103
-Mauricie - Centre du Québec,2020-03-26,14,49
+Capitale Nationale,2020-03-26,8,103
+Mauricie - Centre du Québec,2020-03-26,14,49
 Estrie,2020-03-26,18,187
 Montréal,2020-03-26,179,782
 Outaouais,2020-03-26,3,16
@@ -253,8 +253,8 @@ Nunavik,2020-03-26,0,0
 Terres-Cries-de-la-Baie-James,2020-03-26,0,0
 Bas-Saint-Laurent,2020-03-27,1,7
 Saguenay-Lac-Saint-Jean,2020-03-27,5,16
-Capitale Nationale,2020-03-27,3,106
-Mauricie - Centre du Québec,2020-03-27,20,69
+Capitale Nationale,2020-03-27,3,106
+Mauricie - Centre du Québec,2020-03-27,20,69
 Estrie,2020-03-27,40,227
 Montréal,2020-03-27,189,971
 Outaouais,2020-03-27,2,18
@@ -271,8 +271,8 @@ Nunavik,2020-03-27,0,0
 Terres-Cries-de-la-Baie-James,2020-03-27,0,0
 Bas-Saint-Laurent,2020-03-28,1,8
 Saguenay-Lac-Saint-Jean,2020-03-28,2,18
-Capitale Nationale,2020-03-28,42,148
-Mauricie - Centre du Québec,2020-03-28,16,85
+Capitale Nationale,2020-03-28,42,148
+Mauricie - Centre du Québec,2020-03-28,16,85
 Estrie,2020-03-28,26,253
 Montréal,2020-03-28,248,1219
 Outaouais,2020-03-28,8,26
@@ -289,8 +289,8 @@ Nunavik,2020-03-28,0,0
 Terres-Cries-de-la-Baie-James,2020-03-28,1,1
 Bas-Saint-Laurent,2020-03-29,0,8
 Saguenay-Lac-Saint-Jean,2020-03-29,0,18
-Capitale Nationale,2020-03-29,16,164
-Mauricie - Centre du Québec,2020-03-29,37,122
+Capitale Nationale,2020-03-29,16,164
+Mauricie - Centre du Québec,2020-03-29,37,122
 Estrie,2020-03-29,43,296
 Montréal,2020-03-29,142,1361
 Outaouais,2020-03-29,2,28
@@ -307,8 +307,8 @@ Nunavik,2020-03-29,1,1
 Terres-Cries-de-la-Baie-James,2020-03-29,0,1
 Bas-Saint-Laurent,2020-03-30,3,11
 Saguenay-Lac-Saint-Jean,2020-03-30,6,24
-Capitale Nationale,2020-03-30,10,174
-Mauricie - Centre du Québec,2020-03-30,42,164
+Capitale Nationale,2020-03-30,10,174
+Mauricie - Centre du Québec,2020-03-30,42,164
 Estrie,2020-03-30,33,329
 Montréal,2020-03-30,251,1612
 Outaouais,2020-03-30,10,38
@@ -325,8 +325,8 @@ Nunavik,2020-03-30,0,1
 Terres-Cries-de-la-Baie-James,2020-03-30,1,2
 Bas-Saint-Laurent,2020-03-31,2,13
 Saguenay-Lac-Saint-Jean,2020-03-31,7,31
-Capitale Nationale,2020-03-31,39,213
-Mauricie - Centre du Québec,2020-03-31,51,215
+Capitale Nationale,2020-03-31,39,213
+Mauricie - Centre du Québec,2020-03-31,51,215
 Estrie,2020-03-31,36,365
 Montréal,2020-03-31,379,1991
 Outaouais,2020-03-31,12,50
@@ -343,8 +343,8 @@ Nunavik,2020-03-31,0,1
 Terres-Cries-de-la-Baie-James,2020-03-31,1,3
 Bas-Saint-Laurent,2020-04-01,5,18
 Saguenay-Lac-Saint-Jean,2020-04-01,1,32
-Capitale Nationale,2020-04-01,34,247
-Mauricie - Centre du Québec,2020-04-01,32,247
+Capitale Nationale,2020-04-01,34,247
+Mauricie - Centre du Québec,2020-04-01,32,247
 Estrie,2020-04-01,14,379
 Montréal,2020-04-01,106,2097
 Outaouais,2020-04-01,14,64
@@ -361,8 +361,8 @@ Nunavik,2020-04-01,0,1
 Terres-Cries-de-la-Baie-James,2020-04-01,0,3
 Bas-Saint-Laurent,2020-04-02,1,19
 Saguenay-Lac-Saint-Jean,2020-04-02,0,32
-Capitale Nationale,2020-04-02,23,270
-Mauricie - Centre du Québec,2020-04-02,71,318
+Capitale Nationale,2020-04-02,23,270
+Mauricie - Centre du Québec,2020-04-02,71,318
 Estrie,2020-04-02,25,404
 Montréal,2020-04-02,545,2642
 Outaouais,2020-04-02,11,75
@@ -379,8 +379,8 @@ Nunavik,2020-04-02,1,2
 Terres-Cries-de-la-Baie-James,2020-04-02,0,3
 Bas-Saint-Laurent,2020-04-03,5,24
 Saguenay-Lac-Saint-Jean,2020-04-03,12,44
-Capitale Nationale,2020-04-03,10,280
-Mauricie - Centre du Québec,2020-04-03,46,364
+Capitale Nationale,2020-04-03,10,280
+Mauricie - Centre du Québec,2020-04-03,46,364
 Estrie,2020-04-03,46,450
 Montréal,2020-04-03,195,2837
 Outaouais,2020-04-03,6,81
@@ -397,8 +397,8 @@ Nunavik,2020-04-03,0,2
 Terres-Cries-de-la-Baie-James,2020-04-03,0,3
 Bas-Saint-Laurent,2020-04-04,3,27
 Saguenay-Lac-Saint-Jean,2020-04-04,11,55
-Capitale Nationale,2020-04-04,29,309
-Mauricie - Centre du Québec,2020-04-04,67,431
+Capitale Nationale,2020-04-04,29,309
+Mauricie - Centre du Québec,2020-04-04,67,431
 Estrie,2020-04-04,49,499
 Montréal,2020-04-04,424,3261
 Outaouais,2020-04-04,4,85
@@ -415,8 +415,8 @@ Nunavik,2020-04-04,0,2
 Terres-Cries-de-la-Baie-James,2020-04-04,0,3
 Bas-Saint-Laurent,2020-04-05,0,27
 Saguenay-Lac-Saint-Jean,2020-04-05,24,79
-Capitale Nationale,2020-04-05,36,345
-Mauricie - Centre du Québec,2020-04-05,63,494
+Capitale Nationale,2020-04-05,36,345
+Mauricie - Centre du Québec,2020-04-05,63,494
 Estrie,2020-04-05,19,518
 Montréal,2020-04-05,452,3713
 Outaouais,2020-04-05,24,109
@@ -433,8 +433,8 @@ Nunavik,2020-04-05,0,2
 Terres-Cries-de-la-Baie-James,2020-04-05,1,4
 Bas-Saint-Laurent,2020-04-06,2,29
 Saguenay-Lac-Saint-Jean,2020-04-06,14,93
-Capitale Nationale,2020-04-06,12,357
-Mauricie - Centre du Québec,2020-04-06,55,549
+Capitale Nationale,2020-04-06,12,357
+Mauricie - Centre du Québec,2020-04-06,55,549
 Estrie,2020-04-06,30,548
 Montréal,2020-04-06,264,3977
 Outaouais,2020-04-06,8,117
@@ -451,8 +451,8 @@ Nunavik,2020-04-06,3,5
 Terres-Cries-de-la-Baie-James,2020-04-06,0,4
 Bas-Saint-Laurent,2020-04-07,1,30
 Saguenay-Lac-Saint-Jean,2020-04-07,10,103
-Capitale Nationale,2020-04-07,18,375
-Mauricie - Centre du Québec,2020-04-07,40,589
+Capitale Nationale,2020-04-07,18,375
+Mauricie - Centre du Québec,2020-04-07,40,589
 Estrie,2020-04-07,22,570
 Montréal,2020-04-07,430,4407
 Outaouais,2020-04-07,12,129
@@ -467,3 +467,39 @@ Laurentides,2020-04-07,34,447
 Montérégie,2020-04-07,67,961
 Nunavik,2020-04-07,0,5
 Terres-Cries-de-la-Baie-James,2020-04-07,1,5
+Bas-Saint-Laurent,2020-04-08,3,33
+Saguenay-Lac-Saint-Jean,2020-04-08,15,118
+Capitale Nationale,2020-04-08,17,392
+Mauricie - Centre du Québec,2020-04-08,25,614
+Estrie,2020-04-08,27,597
+Montréal,2020-04-08,368,4775
+Outaouais,2020-04-08,1,130
+Abitibi-Temiscamingue,2020-04-08,3,111
+Côte-Nord,2020-04-08,4,75
+Nord-du-Québec,2020-04-08,0,2
+Gaspésie-Îles-de-la-Madeleine,2020-04-08,9,75
+Chaudière-Appalaches,2020-04-08,14,195
+Laval,2020-04-08,72,831
+Lanaudière,2020-04-08,48,580
+Laurentides,2020-04-08,12,459
+Montérégie,2020-04-08,73,1034
+Nunavik,2020-04-08,0,5
+Terres-Cries-de-la-Baie-James,2020-04-08,0,5
+Bas-Saint-Laurent,2020-04-09,0,33
+Saguenay-Lac-Saint-Jean,2020-04-09,5,123
+Capitale Nationale,2020-04-09,20,412
+Mauricie - Centre du Québec,2020-04-09,34,648
+Estrie,2020-04-09,23,620
+Montréal,2020-04-09,487,5262
+Outaouais,2020-04-09,1,131
+Abitibi-Temiscamingue,2020-04-09,8,119
+Côte-Nord,2020-04-09,6,81
+Nord-du-Québec,2020-04-09,0,2
+Gaspésie-Îles-de-la-Madeleine,2020-04-09,4,79
+Chaudière-Appalaches,2020-04-09,12,207
+Laval,2020-04-09,66,897
+Lanaudière,2020-04-09,84,664
+Laurentides,2020-04-09,57,516
+Montérégie,2020-04-09,74,1108
+Nunavik,2020-04-09,0,5
+Terres-Cries-de-la-Baie-James,2020-04-09,0,5
