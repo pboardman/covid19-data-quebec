@@ -193,5 +193,16 @@
         "total_recovered": 1341,
         "hospitalisations": 679,
         "intensive_care": 196
+    },
+    "2020-04-10": {
+        "total_case": 11677,
+        "total_death": 241,
+        "total_recovered": 1563,
+        "hospitalisations": 778,
+        "intensive_care": 211
+    },
+    "2020-04-11": {
+        "total_case": 12292,
+        "total_death": 241
     }
 }
