@@ -203,6 +203,9 @@
     },
     "2020-04-11": {
         "total_case": 12292,
-        "total_death": 241
+        "total_death": 328,
+        "total_recovered": 1745,
+        "hospitalisations": 824,
+        "intensive_care": 217
     }
 }
