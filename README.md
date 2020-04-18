@@ -1,3 +1,5 @@
+![covid-19 banner](covid-banner.jpg)
+
 # Données historiques de la COVID-19 dans la province de Québec / Historical Data about the COVID-19 in the province of Québec
 
 [Lien vers les données en version web (HTML) / Link to datasets in web format (HTML)](https://pboardman.github.io/covid19-data-quebec/data.html)
@@ -47,6 +49,7 @@ Et en format CSV ici:
 - [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020) (Toutes les données dans les données de `region` + total_case et total_death des données de `total`)
 - [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees) (total_recovered, hospitalisations et ICU des données de `total`)
 - [santemontreal](https://santemontreal.qc.ca/population/coronavirus-covid-19/#c36391) (Toutes les données dans les données de `montreal`)
+- La photo de la bannière en haut de la page à été prise à Montréal près de la rue Notre-Dame et Dickson
 
 
 ## English
@@ -92,3 +95,4 @@ And the CSV APIs are here:
 - [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020) (all data in `region` dataset + total_case and total_death of `total` dataset)
 - [Institut national de santé publique](https://www.inspq.qc.ca/covid-19/donnees) (total_recovered, hospitalisations and ICU in `total` dataset)
 - [santemontreal](https://santemontreal.qc.ca/population/coronavirus-covid-19/#c36391) (all data in `montreal` dataset)
+- covid-19 banner picture was taken in Montréal near Notre-Dame and Dickson streets
