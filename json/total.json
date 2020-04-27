@@ -284,5 +284,26 @@
         "total_recovered": 4484,
         "hospitalisations": 1411,
         "intensive_care": 207
+    },
+    "2020-04-23": {
+        "total_case": 22616,
+        "total_death": 1340,
+        "total_recovered": 4724,
+        "hospitalisations": 1460,
+        "intensive_care": 227
+    },
+    "2020-04-24": {
+        "total_case": 23267,
+        "total_death": 1446,
+        "total_recovered": 5057,
+        "hospitalisations": 1509,
+        "intensive_care": 217
+    },
+    "2020-04-25": {
+        "total_case": 24107,
+        "total_death": 1515,
+        "total_recovered": 5342,
+        "hospitalisations": 1518,
+        "intensive_care": 215
     }
 }
