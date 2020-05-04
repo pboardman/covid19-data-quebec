@@ -44,6 +44,7 @@ Et en format CSV ici:
 
 - `2020-03-18` Avant le 18 mars les chiffres des nouveaux cas sont les chiffres du gouvernements du Québec, a partir du 18 mars les chiffres sont calculé comme suit parce qu'il n'y a plus d'information officiel: `total des cas aujourd'hui - total des cas hier`
 - `2020-03-23` A partir du 23 mars, les "cas probables" ont été ajouté par le gouvernements du Québec. (auparavant seulement les cas confirmé étaient calculés)
+- `2020-05-03` https://web.archive.org/web/20200504175646/https://www.ledevoir.com/societe/sante/578200/coronavirus-bilan-quebec-3-mai
 
 ### Sources
 - [quebec.ca](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&utm_medium=print&utm_campaign=coronavirus_2020) (Toutes les données dans les données de `region` + total_case et total_death des données de `total`)
@@ -89,6 +90,7 @@ And the CSV APIs are here:
 
 - `2020-03-18` Before march 18 the data about new cases come from the government of Québec, on march 18 and onward, the number are calculated like this since the information isn't available: `number of case today - number of case yesterday`
 - `2020-03-23` Starting on march 23, the government switched between counting only confirmed case to counting confirmed + probable case
+- `2020-05-03` https://web.archive.org/web/20200504175646/https://www.ledevoir.com/societe/sante/578200/coronavirus-bilan-quebec-3-mai
 
 
 ### Sources

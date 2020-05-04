@@ -326,5 +326,38 @@
         "total_recovered": 6048,
         "hospitalisations": 1648,
         "intensive_care": 222
+    },
+    "2020-04-29": {
+        "total_case": 27538,
+        "total_death": 1859,
+        "hospitalisations": 1684
+    },
+    "2020-04-30": {
+        "total_case": 28648,
+        "total_death": 2022,
+        "total_recovered": 6700,
+        "hospitalisations": 1716,
+        "intensive_care": 218
+    },
+    "2020-05-01": {
+        "total_case": 29656,
+        "total_death": 2136,
+        "total_recovered": 6965,
+        "hospitalisations": 1738,
+        "intensive_care": 222
+    },
+    "2020-05-02": {
+        "total_case": 31865,
+        "total_death": 2205,
+        "total_recovered": 7258,
+        "hospitalisations": 1754,
+        "intensive_care": 218
+    },
+    "2020-05-03": {
+        "total_case": 32623,
+        "total_death": 2280,
+        "total_recovered": 7578,
+        "hospitalisations": 1772,
+        "intensive_care": 218
     }
 }
