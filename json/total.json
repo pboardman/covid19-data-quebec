@@ -359,5 +359,103 @@
         "total_recovered": 7578,
         "hospitalisations": 1772,
         "intensive_care": 218
+    },
+    "2020-05-04": {
+        "total_case": 33417,
+        "total_death": 2398,
+        "total_recovered": 7923,
+        "hospitalisations": 1821,
+        "intensive_care": 218
+    },
+    "2020-05-05": {
+        "total_case": 34327,
+        "total_death": 2510,
+        "total_recovered": 8284,
+        "hospitalisations": 1840,
+        "intensive_care": 213
+    },
+    "2020-05-06": {
+        "total_case": 35238,
+        "total_death": 2631,
+        "total_recovered": 8673,
+        "hospitalisations": 1836,
+        "intensive_care": 224
+    },
+    "2020-05-07": {
+        "total_case": 36150,
+        "total_death": 2725,
+        "total_recovered": 8928,
+        "hospitalisations": 1827,
+        "intensive_care": 207
+    },
+    "2020-05-08": {
+        "total_case": 36986,
+        "total_death": 2786,
+        "total_recovered": 9268,
+        "hospitalisations": 1835,
+        "intensive_care": 205
+    },
+    "2020-05-09": {
+        "total_case": 37721,
+        "total_death": 2928,
+        "total_recovered": 9526,
+        "hospitalisations": 1831,
+        "intensive_care": 199
+    },
+    "2020-05-10": {
+        "total_case": 38469,
+        "total_death": 3013,
+        "total_recovered": 9703,
+        "hospitalisations": 1838,
+        "intensive_care": 193
+    },
+    "2020-05-11": {
+        "total_case": 39225,
+        "total_death": 3131,
+        "total_recovered": 10056,
+        "hospitalisations": 1841,
+        "intensive_care": 186
+    },
+    "2020-05-12": {
+        "total_case": 39931,
+        "total_death": 3220,
+        "total_recovered": 10470,
+        "hospitalisations": 1876,
+        "intensive_care": 194
+    },
+    "2020-05-13": {
+        "total_case": 40724,
+        "total_death": 3351,
+        "total_recovered": 10829,
+        "hospitalisations": 1834,
+        "intensive_care": 190
+    },
+    "2020-05-14": {
+        "total_case": 41420,
+        "total_death": 3401,
+        "total_recovered": 11309,
+        "hospitalisations": 1822,
+        "intensive_care": 191
+    },
+    "2020-05-15": {
+        "total_case": 42183,
+        "total_death": 3483,
+        "total_recovered": 11458,
+        "hospitalisations": 1763,
+        "intensive_care": 179
+    },
+    "2020-05-16": {
+        "total_case": 42920,
+        "total_death": 3562,
+        "total_recovered": 11754,
+        "hospitalisations": 1766,
+        "intensive_care": 183
+    },
+    "2020-05-17": {
+        "total_case": 43627,
+        "total_death": 3596,
+        "total_recovered": 12045,
+        "hospitalisations": 1771,
+        "intensive_care": 179
     }
 }
