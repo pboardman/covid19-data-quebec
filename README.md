@@ -1,3 +1,6 @@
+- **Les informations de ce dépôt git ne sont plus mis à jour, pour des informations recentes voir: https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes**
+- **This repository is no longer kept up to date, for day to day info see: https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes**
+
 ![covid-19 banner](covid-banner.jpg)
 
 # Données historiques de la COVID-19 dans la province de Québec / Historical Data about the COVID-19 in the province of Québec
